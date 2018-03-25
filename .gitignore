@@ -1,0 +1,10 @@
+/Smart_scale_bluetooth_hack/conf-dev.h
+/Debug
+/Smart_scale_bluetooth_hack/Debug/*
+/Smart_scale_bluetooth_hack/Smart_scale_bluetooth_hack.vcxproj
+/Smart_scale_bluetooth_hack/Smart_scale_bluetooth_hack.vcxproj.filters
+/Smart_scale_bluetooth_hack/__vm
+/.vs
+Smart_scale_bluetooth_hack.sln
+.idea
+/screenshot
