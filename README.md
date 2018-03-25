@@ -55,39 +55,39 @@ First upload the  <code>hm10_comm.ino</code> sketch to communicate with the modu
 Once you've uploaded the sketch open the serial monitor, type <code>AT</code> in the input box and press Enter
 If everything works fine, you should <code>OK</code> written in the serial monitor.
 
-Now like with the <code>AT</code> command, follow the next steps :
-<code>AT+IMME1</code>
-<code>AT+ROLE1</code>
-<code>AT+NOTI1</code>
+Now like with the <code>AT</code> command, follow the next steps :<br>
+<code>AT+IMME1</code><br>
+<code>AT+ROLE1</code><br>
+<code>AT+NOTI1</code><br>
 
-Try to disconnect all your device with bluetoothLE near you, so that the module will only detect the smart scale.
+Try to disconnect all your device with bluetoothLE near you, so that the module will only detect the smart scale.<br>
 <code>AT+DISC?</code>
 
-Something like that should appear:
+Something like that should appear:<br>
 <code>OK+DISCEOK+DISCSOK+DIS0:03B3EC12008DOK+DISCE</code>
 
 If there is nothing, do it again until you see something, if still not verify that your scale is powered on and has no problem.
 
 Will consider that there were only one device found otherwise do the following steps for each device until you find the smart scale.
 
-Now enter
+Now enter<br>
 <code>AT+CONN0</code>
 
-you should have this as answer
+you should have this as answer<br>
 <code>OK+CONN0OK+CONN</code>
 
 Now step on your scale and look for the serial monitor, if some gibberish appears, congrats you've connected your scale to your arduino.
 
-Now enter
+Now enter<br>
 <code>AT</code>
 
-you should have this as answer
+you should have this as answer<br>
 <code>OK+LOST</code>
 
-Then
+Then<br>
 <code>AT+IMME0</code>
 
-And at last 
+And at last <br>
 <code>AT+RESET</code>
 
 <a href="http://www.martyncurrey.com/?wpdmdl=5917">Here</a> is the hm-10 module DataSheet with all the AT-COMMAND
