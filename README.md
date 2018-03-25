@@ -1,6 +1,6 @@
 
 # Smart scale bluetooth hack   
- This arduino sketch is an attempt to reverse ingineered the <a target="_blank" href="https://www.amazon.com/Scale-DIKI-Bluetooth-Smart-Monitor/dp/B01LNSFJXK">diki smart scale.</a>    
+ This arduino sketch is an attempt to reverse engineered the <a target="_blank" href="https://www.amazon.com/Scale-DIKI-Bluetooth-Smart-Monitor/dp/B01LNSFJXK">diki smart scale.</a>    
     
 I guess it should be working with all smart scale compatible with the Alfit app:    
     
