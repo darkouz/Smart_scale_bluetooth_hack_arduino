@@ -99,3 +99,4 @@ Now upload the sketch <code>bluetooth_reverse_ingineering.ino</code> open the se
 - Update code for esp8266
 - Use vector instead of static array to hold serial word
 - Add option to persist data on database
+- POO version
